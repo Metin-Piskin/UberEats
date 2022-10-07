@@ -8,7 +8,7 @@ import RestaurantItem from '../../Components/HomeComponents/RestaurantItem';
 import { localRestaurants } from '../../Components/HomeComponents/RestaurantItem/RestaurantItem';
 import BottomTabs from '../../Components/HomeComponents/BottomTabs';
 
-const YELP_API_KEY = "cKkbblZu5hqcH2WYAwqzai-mNkJVRFmGpzNTnQQdGirJOf97wkj0WVYExNl6XJGY5G6hA5jecrSra_fNEkkEvP7khJwyyX4rVbmWQ492xDQeZrMG6Q3irh8g-JE9Y3Yx";
+const YELP_API_KEY = "KEY";
 
 const Home = ({ navigation }) => {
     const [restaurantData, setRestaurantData] = useState(localRestaurants);
