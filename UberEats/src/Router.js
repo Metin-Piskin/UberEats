@@ -10,6 +10,7 @@ const Stack = createNativeStackNavigator();
 
 import Home from './Pages/Home';
 import Detail from './Pages/Detail';
+import OrderCompletd from './Pages/OrderCompletd';
 
 const Router = () => {
     return (
@@ -18,6 +19,7 @@ const Router = () => {
                 <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName='Home'>
                     <Stack.Screen name='Home' component={Home} />
                     <Stack.Screen name='Detail' component={Detail} />
+                    <Stack.Screen name='OrderCompletd' component={OrderCompletd} />
                 </Stack.Navigator>
             </NavigationContainer>
         </ReduxProvider>
